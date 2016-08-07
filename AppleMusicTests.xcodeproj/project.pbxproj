@@ -16,6 +16,15 @@
 		65FC1F711D57D66F009A88FC /* AppleMusicTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F701D57D66F009A88FC /* AppleMusicTestsTests.swift */; };
 		65FC1F7C1D57D66F009A88FC /* AppleMusicTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F7B1D57D66F009A88FC /* AppleMusicTestsUITests.swift */; };
 		65FC1F8A1D57D7D8009A88FC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F891D57D7D8009A88FC /* SwiftyJSON.swift */; };
+		65FC1F971D57DC44009A88FC /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F8E1D57DC44009A88FC /* Attribute.swift */; };
+		65FC1F981D57DC44009A88FC /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F8F1D57DC44009A88FC /* Entity.swift */; };
+		65FC1F991D57DC44009A88FC /* IdType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F901D57DC44009A88FC /* IdType.swift */; };
+		65FC1F9A1D57DC44009A88FC /* ITunesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F911D57DC44009A88FC /* ITunesApi.swift */; };
+		65FC1F9B1D57DC44009A88FC /* ITunesLookupApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F921D57DC44009A88FC /* ITunesLookupApi.swift */; };
+		65FC1F9C1D57DC44009A88FC /* ITunesSearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F931D57DC44009A88FC /* ITunesSearchApi.swift */; };
+		65FC1F9D1D57DC44009A88FC /* LookupResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F941D57DC44009A88FC /* LookupResult.swift */; };
+		65FC1F9E1D57DC44009A88FC /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F951D57DC44009A88FC /* Media.swift */; };
+		65FC1F9F1D57DC44009A88FC /* SortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1F961D57DC44009A88FC /* SortType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +59,15 @@
 		65FC1F7B1D57D66F009A88FC /* AppleMusicTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicTestsUITests.swift; sourceTree = "<group>"; };
 		65FC1F7D1D57D66F009A88FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FC1F891D57D7D8009A88FC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = External/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
+		65FC1F8E1D57DC44009A88FC /* Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = ../ITunesSwift/Attribute.swift; sourceTree = "<group>"; };
+		65FC1F8F1D57DC44009A88FC /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = ../ITunesSwift/Entity.swift; sourceTree = "<group>"; };
+		65FC1F901D57DC44009A88FC /* IdType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IdType.swift; path = ../ITunesSwift/IdType.swift; sourceTree = "<group>"; };
+		65FC1F911D57DC44009A88FC /* ITunesApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ITunesApi.swift; path = ../ITunesSwift/ITunesApi.swift; sourceTree = "<group>"; };
+		65FC1F921D57DC44009A88FC /* ITunesLookupApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ITunesLookupApi.swift; path = ../ITunesSwift/ITunesLookupApi.swift; sourceTree = "<group>"; };
+		65FC1F931D57DC44009A88FC /* ITunesSearchApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ITunesSearchApi.swift; path = ../ITunesSwift/ITunesSearchApi.swift; sourceTree = "<group>"; };
+		65FC1F941D57DC44009A88FC /* LookupResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LookupResult.swift; path = ../ITunesSwift/LookupResult.swift; sourceTree = "<group>"; };
+		65FC1F951D57DC44009A88FC /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Media.swift; path = ../ITunesSwift/Media.swift; sourceTree = "<group>"; };
+		65FC1F961D57DC44009A88FC /* SortType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortType.swift; path = ../ITunesSwift/SortType.swift; sourceTree = "<group>"; };
 		88D8EB3D571CEC3DCE424E03 /* Pods-AppleMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppleMusicTests/Pods-AppleMusicTests.release.xcconfig"; sourceTree = "<group>"; };
 		9EF1D7602868B64FBE2CA026 /* Pods_AppleMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F8DD87A26E5C0A7D5EBB4A /* Pods-AppleMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleMusicTests/Pods-AppleMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +132,7 @@
 		65FC1F5A1D57D66E009A88FC /* AppleMusicTests */ = {
 			isa = PBXGroup;
 			children = (
+				65FC1F8C1D57DC29009A88FC /* ITunesSwift */,
 				65FC1F8B1D57D7E0009A88FC /* External */,
 				65FC1F5B1D57D66E009A88FC /* AppDelegate.swift */,
 				65FC1F5D1D57D66E009A88FC /* ViewController.swift */,
@@ -149,6 +168,22 @@
 				65FC1F891D57D7D8009A88FC /* SwiftyJSON.swift */,
 			);
 			name = External;
+			sourceTree = "<group>";
+		};
+		65FC1F8C1D57DC29009A88FC /* ITunesSwift */ = {
+			isa = PBXGroup;
+			children = (
+				65FC1F8E1D57DC44009A88FC /* Attribute.swift */,
+				65FC1F8F1D57DC44009A88FC /* Entity.swift */,
+				65FC1F901D57DC44009A88FC /* IdType.swift */,
+				65FC1F911D57DC44009A88FC /* ITunesApi.swift */,
+				65FC1F921D57DC44009A88FC /* ITunesLookupApi.swift */,
+				65FC1F931D57DC44009A88FC /* ITunesSearchApi.swift */,
+				65FC1F941D57DC44009A88FC /* LookupResult.swift */,
+				65FC1F951D57DC44009A88FC /* Media.swift */,
+				65FC1F961D57DC44009A88FC /* SortType.swift */,
+			);
+			name = ITunesSwift;
 			sourceTree = "<group>";
 		};
 		701D7D2C337904062B273B59 /* Pods */ = {
@@ -351,8 +386,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FC1F9E1D57DC44009A88FC /* Media.swift in Sources */,
 				65FC1F8A1D57D7D8009A88FC /* SwiftyJSON.swift in Sources */,
+				65FC1F981D57DC44009A88FC /* Entity.swift in Sources */,
 				65FC1F5E1D57D66E009A88FC /* ViewController.swift in Sources */,
+				65FC1F9C1D57DC44009A88FC /* ITunesSearchApi.swift in Sources */,
+				65FC1F9D1D57DC44009A88FC /* LookupResult.swift in Sources */,
+				65FC1F971D57DC44009A88FC /* Attribute.swift in Sources */,
+				65FC1F9F1D57DC44009A88FC /* SortType.swift in Sources */,
+				65FC1F9B1D57DC44009A88FC /* ITunesLookupApi.swift in Sources */,
+				65FC1F991D57DC44009A88FC /* IdType.swift in Sources */,
+				65FC1F9A1D57DC44009A88FC /* ITunesApi.swift in Sources */,
 				65FC1F5C1D57D66E009A88FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
